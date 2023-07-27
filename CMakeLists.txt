@@ -101,6 +101,11 @@ install(FILES fcpp_spiral_plugin.xml
   DESTINATION share/${PROJECT_NAME}
 )
 
+install(
+  DIRECTORY test
+  DESTINATION share/${PROJECT_NAME}
+)
+
 ################################################################################
 # Test
 ################################################################################
